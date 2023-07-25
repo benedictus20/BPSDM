@@ -8,7 +8,7 @@
     <meta name="author" content="" />
     <title></title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="<?= base_url('') ?>assets/img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="<?= base_url('') ?>assets/img/logo.png" />
     <!-- Custom Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,12 +24,12 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
             <div class="container px-5">
-                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">BPSDM Provinsi Jawa Barat</span></a>
+                <a class="navbar-brand"><span class="fw-bolder text-primary">BPSDM Provinsi Jawa Barat</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                        <li class="nav-item"><a class="nav-link" href="beranda.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?= base_url('') ?>beranda">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?= base_url('') ?>about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="projects.html">Integral</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         <li class="nav-item"><a class="btn btn-primary btn-lg px-3 py-1 me-sm-1 fs-6 fw-bolder" href="contact.html">Sign In</a></li>
@@ -220,7 +220,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="<?= base_url('') ?>assets/js/scripts.js"></script>
 </body>
 
 </html>
